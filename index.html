@@ -5,8 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    
+    <div id="sidebar">
+        <div id="logo">BIG LOGO</div>
+        <div id="nav-links">
+            <div id="home-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M160-120v-480l320-240 320 240v480H560v-280H400v280H160Z"/></svg>
+                <div id="home-link">Home</div>
+            </div>
+            <div id="profile-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M226-262q59-39.666 121-60.833T480-344q71 0 133.333 21.167Q675.667-301.666 734.667-262q41-49.667 59.833-103.667 18.834-54 18.834-114.333 0-141-96.167-237.167T480-813.334q-141 0-237.167 96.167T146.666-480q0 60.333 19.167 114.333T226-262Zm253.876-184.667q-58.209 0-98.043-39.957Q342-526.581 342-584.791q0-58.209 39.957-98.042 39.958-39.834 98.167-39.834t98.043 39.958Q618-642.752 618-584.543q0 58.21-39.957 98.043-39.958 39.833-98.167 39.833ZM479.73-80q-83.097 0-156.183-31.5t-127.15-85.833q-54.064-54.334-85.23-127.227Q80-397.454 80-480.333q0-82.88 31.5-155.773Q143-709 197.333-763q54.334-54 127.227-85.5Q397.454-880 480.333-880q82.88 0 155.773 31.5Q709-817 763-763t85.5 127Q880-563 880-480.177q0 82.822-31.5 155.666T763-197.333Q709-143 635.914-111.5T479.73-80Z"/></svg>
+                <div id="profile-link">Profile</div>
+            </div>
+            <div id="messages-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M80-80v-733.334q0-27 19.833-46.833T146.666-880h666.668q27 0 46.833 19.833T880-813.334v506.668q0 27-19.833 46.833T813.334-240H240L80-80Z"/></svg>
+                <div id="messages-link">Messages</div>
+            </div>
+            <div id="history-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M478-120q-145.334 0-248.834-100.834-103.5-100.833-108.499-246.5H188q4.666 118 88.166 199.334T478-186.666q123.667 0 209.5-86.5 85.834-86.501 85.834-210.167 0-121.667-86.5-205.834Q600.333-773.334 478-773.334q-68.333 0-128 31.334-59.667 31.333-102.667 83.999H354v66.667H134.667V-810h66.666v102Q253-770 325.167-805 397.333-840 478-840q75 0 140.833 28.167 65.834 28.166 115 76.666Q783-686.667 811.5-621.5T840-481.333q0 75-28.5 140.833t-77.667 114.667q-49.166 48.833-115 77.333Q553-120 478-120Zm122.667-195.333-153.333-152V-682H514v187.333l134 132-47.333 47.334Z"/></svg>
+                <div id="history-link">History</div>
+            </div>
+            <div id="tasks-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m435.333-250 228-228L618-523.333l-183 183L338.333-437l-45 45 142 142ZM226.666-80q-27 0-46.833-19.833T160-146.666v-666.668q0-27 19.833-46.833T226.666-880H574l226 226v507.334q0 27-19.833 46.833T733.334-80H226.666Zm314.001-542.667h192.667L540.667-813.334v190.667Z"/></svg>
+                <div id="tasks-link">Tasks</div>
+            </div>
+            <div id="communities-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M0-240v-56.333q0-40.045 42.333-65.189 42.334-25.144 111.251-25.144 12.443 0 23.93.5 11.486.5 22.486 2.268-10 18.565-15 38.109-5 19.545-5 40.789v65H0Zm240 0v-65q0-32 17.5-58.5T307-410q32-20 76.5-30t96.5-10q53 0 97.5 10t76.5 30q32 20 49 46.5t17 58.5v65H240Zm540 0v-65q0-21.907-4.5-41.287-4.5-19.379-14.166-37.561 11-1.818 22.281-2.318 11.28-.5 23.052-.5 69 0 111.166 24.678Q960-337.309 960-296.333V-240H780ZM153.045-419.999q-30.045 0-51.545-21.542T80-493.333q0-30.666 21.542-51.999 21.541-21.334 51.791-21.334 30.667 0 52 21.334 21.333 21.333 21.333 52.288 0 30.045-21.333 51.545t-52.288 21.5Zm653.333 0q-30.044 0-51.544-21.542-21.5-21.542-21.5-51.792 0-30.666 21.541-51.999 21.542-21.334 51.792-21.334 30.666 0 52 21.334Q880-523.999 880-493.044q0 30.045-21.333 51.545-21.334 21.5-52.289 21.5ZM480-480q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Z"/></svg>
+                <div id="communities">Communities</div>
+            </div>
+        </div>
+        <div id="other">
+            <div id="settings-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m382-80-18.666-126.667Q346.333-213 328.5-223.333 310.666-233.667 296.333-245L178-192.334 79.333-365l106.334-78.666q-1.667-8.334-2-18.167-.334-9.834-.334-18.167 0-8.333.334-18.167.333-9.833 2-18.167L79.333-595 178-767.666 296.333-715q14.333-11.333 32.334-21.667 18-10.333 34.667-16L382-880h196l18.666 126.667Q613.667-747 631.833-737q18.167 10 31.834 22L782-767.666 880.667-595l-106.334 77.333q1.667 9 2 18.834.334 9.833.334 18.833 0 9-.334 18.5Q776-452 774-443l106.333 78-98.666 172.666-118-52.666q-14.333 11.333-32 22t-35.001 16.333L578-80H382Zm98.667-266.667q55.333 0 94.333-39T614-480q0-55.333-39-94.333t-94.333-39q-55.667 0-94.5 39-38.834 39-38.834 94.333t38.834 94.333q38.833 39 94.5 39Z"/></svg>
+                <div id="settings-link">Settings</div>
+            </div>
+            <div id="support-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M482-244.667q17.667 0 29.833-12.166Q524-269 524-286.667q0-17.666-12.167-29.833-12.166-12.166-29.833-12.166-17.666 0-29.833 12.166Q440-304.333 440-286.667q0 17.667 12.167 29.834 12.167 12.166 29.833 12.166Zm-35.333-148.666h64q0-28.334 6.833-49 6.833-20.667 41.166-50.334 29.334-26 43.001-50.5 13.666-24.5 13.666-55.5 0-53.999-36.666-85.333-36.667-31.333-93.334-31.333-51.666 0-88.5 26.333Q360-662.667 344-620l57.333 22q9-24.667 29.5-42t52.5-17.333q33.334 0 52.667 18.166 19.334 18.167 19.334 44.5 0 21.334-12.667 40.167-12.667 18.833-35.334 37.834-34.666 30.333-47.666 53.999-13 23.667-13 69.334ZM480-80q-82.333 0-155.333-31.5t-127.334-85.833Q143-251.667 111.5-324.667T80-480q0-83 31.5-156t85.833-127q54.334-54 127.334-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82.333-31.5 155.333T763-197.333Q709-143 636-111.5T480-80Z"/></svg>
+                <div id="support-link">Support</div>
+            </div>
+            <div id="privacy-container">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M436.667-350 664-577.334l-47-46.333-178.333 178.334-95.334-95.334L295-492.334 436.667-350ZM480-80.667q-139.667-35-229.833-161.5Q160-368.667 160-520.667v-240l320-120 320 120v240q0 152-90.167 278.5-90.166 126.5-229.833 161.5Z"/></svg>
+                <div id="privacy-link">Privacy</div>
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div id="search-container">
+            <div id="search-icon">S-Icon</div>
+            <input type="text" id="search-bar" placeholder="Search">
+        </div>
+        <div id="notification-container">
+            <div id="notification-icon">N-Icon</div>
+            <div id="avatar">Avatar</div>
+            <div id="user-name">Nathan Jones</div>
+        </div>
+        <div id="greeting-container">
+            <div id="avatar">Avatar</div>
+            <h3>Hi there,</h3>
+            <h1>Nathan Jones</h1>
+        </div>
+        <div id="action-container">
+            <button id="button-new">New</button>
+            <button id="button-upload">Upload</button>
+            <button id="button-share">Share</button>
+        </div>
+    </div>
+    <div id="main-content">MAIN CONTENT
+        <div id="project-container-outer">
+            <h2>Your Projects</h2>
+            <div id="project-container-inner">
+                <div class="project-card">
+                    <div class="project-title">Project Title</div>
+                    <div class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis voluptatem beatae reiciendis adipisci commodi, quas dolor! Rem nam earum vel nihil culpa. Aut iusto possimus ab officiis, aspernatur vel praesentium.</div>
+                    <div class="project-actions">
+                        Favorite logo
+                        Watch logo
+                        Share logo
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Project Title</div>
+                    <div class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis voluptatem beatae reiciendis adipisci commodi, quas dolor! Rem nam earum vel nihil culpa. Aut iusto possimus ab officiis, aspernatur vel praesentium.</div>
+                    <div class="project-actions">
+                        Favorite logo
+                        Watch logo
+                        Share logo
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Project Title</div>
+                    <div class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis voluptatem beatae reiciendis adipisci commodi, quas dolor! Rem nam earum vel nihil culpa. Aut iusto possimus ab officiis, aspernatur vel praesentium.</div>
+                    <div class="project-actions">
+                        Favorite logo
+                        Watch logo
+                        Share logo
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Project Title</div>
+                    <div class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis voluptatem beatae reiciendis adipisci commodi, quas dolor! Rem nam earum vel nihil culpa. Aut iusto possimus ab officiis, aspernatur vel praesentium.</div>
+                    <div class="project-actions">
+                        Favorite logo
+                        Watch logo
+                        Share logo
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Project Title</div>
+                    <div class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis voluptatem beatae reiciendis adipisci commodi, quas dolor! Rem nam earum vel nihil culpa. Aut iusto possimus ab officiis, aspernatur vel praesentium.</div>
+                    <div class="project-actions">
+                        Favorite logo
+                        Watch logo
+                        Share logo
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Project Title</div>
+                    <div class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis voluptatem beatae reiciendis adipisci commodi, quas dolor! Rem nam earum vel nihil culpa. Aut iusto possimus ab officiis, aspernatur vel praesentium.</div>
+                    <div class="project-actions">
+                        Favorite logo
+                        Watch logo
+                        Share logo
+                    </div>
+                </div>
+            </div>
+            <h2>Announcements</h2>
+            <div id="announcements-container">
+                <div class="announcement-title">Title</div>
+                <div class="announcement-description">Description</div>
+            </div>
+            <h2>Trending</h2>
+            <div id="trending-container">
+                <ul>
+                    <li>Person 1</li>
+                    <li>Person 2</li>
+                    <li>Person 3</li>
+                    <li>Person 4</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
